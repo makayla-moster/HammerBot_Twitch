@@ -226,9 +226,22 @@ async def cmd_does(msg: Message, *args):
     await msg.reply(response)
 
 
+@Command('gg', aliases=['GG', "Gg"], syntax='')
+async def cmd_gg(msg: Message, *args):
+    await msg.reply(f"bshammGG bshammGG bshammGG")
 
+@Command('knight', syntax='')
+async def cmd_knight(msg: Message, *args):
+    await msg.reply(f"bshammKnight bshammKnight bshammKnight")
 
+@Command('glhf', syntax='')
+async def cmd_glhf(msg: Message, *args):
+    await msg.reply(f"bshammGLHF bshammGLHF bshammGLHF")
 
-# @Command('gg', syntax='<civ name>')
-# async def cmd_gg(msg: Message, *args):
-#     await msg.reply(f"bshammGG bshammGG bshammGG")
+@Command('sicilian', aliases=['Sicilian', 'sicilianhammer', 'SicilianHammer'], syntax='')
+async def cmd_sicilian(msg: Message, *args):
+    await msg.reply(f"bshammSicilian bshammSicilian bshammSicilian")
+
+@Command('ban',aliases=['banhammer'], syntax='')
+    async def cmd_ban(msg: Message, *args):
+        await msg.reply(f"bshammBanHammer bshammBanHammer bshammBanHammer")
