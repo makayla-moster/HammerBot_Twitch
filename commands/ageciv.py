@@ -243,5 +243,5 @@ async def cmd_sicilian(msg: Message, *args):
     await msg.reply(f"bshammSicilian bshammSicilian bshammSicilian")
 
 @Command('ban',aliases=['banhammer'], syntax='')
-    async def cmd_ban(msg: Message, *args):
-        await msg.reply(f"bshammBanHammer bshammBanHammer bshammBanHammer")
+async def cmd_ban(msg: Message, *args):
+    await msg.reply(f"bshammBanHammer bshammBanHammer bshammBanHammer")
