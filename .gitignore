@@ -1,0 +1,5 @@
+.env
+/configs
+*.sqlite
+__pycache__/
+*.toml
