@@ -103,14 +103,14 @@ async def display_RM_rank(msg: Message, *args):
                 rank_1v1 = rankings_1v1[i]['rating']
             if rankings_tg[i]['name'] == 'BSHammer':
                 rank_tg = rankings_tg[i]['rating']
-        response = f"RM BSHammer: 1v1: {rank_1v1}, TG: {rank_tg}"
+        response = f"BSHammer RM: 1v1: {rank_1v1}, TG: {rank_tg}"
     else:
         for i in range(len(rankings_1v1)):
             if rankings_1v1[i]['name'] == args[0]:
                 rank_1v1 = rankings_1v1[i]['rating']
             if rankings_tg[i]['name'] == args[0]:
                 rank_tg = rankings_tg[i]['rating']
-        response = f"RM {args[0]}: 1v1: {rank_1v1}, TG: {rank_tg}"
+        response = f"{args[0]} RM: 1v1: {rank_1v1}, TG: {rank_tg}"
     await msg.reply(response)
 
 @Command('rankew', syntax='Optional: <"PlayerName">')
@@ -127,14 +127,14 @@ async def display_EW_rank(msg: Message, *args):
                 rank_1v1 = rankings_1v1[i]['rating']
             if rankings_tg[i]['name'] == 'BSHammer':
                 rank_tg = rankings_tg[i]['rating']
-        response = f"EW BSHammer: 1v1: {rank_1v1}, TG: {rank_tg}"
+        response = f"BSHammer EW: 1v1: {rank_1v1}, TG: {rank_tg}"
     else:
         for i in range(len(rankings_1v1)):
             if rankings_1v1[i]['name'] == args[0]:
                 rank_1v1 = rankings_1v1[i]['rating']
             if rankings_tg[i]['name'] == args[0]:
                 rank_tg = rankings_tg[i]['rating']
-        response = f"EW {args[0]}: 1v1: {rank_1v1}, TG: {rank_tg}"
+        response = f"{args[0]} EW: 1v1: {rank_1v1}, TG: {rank_tg}"
     await msg.reply(response)
 
 
@@ -152,12 +152,12 @@ async def display_DM_rank(msg: Message, *args):
                 rank_1v1 = rankings_1v1[i]['rating']
             if rankings_tg[i]['name'] == 'BSHammer':
                 rank_tg = rankings_tg[i]['rating']
-        response = f"DM BSHammer: 1v1: {rank_1v1}, TG: {rank_tg}"
+        response = f"BSHammer DM: 1v1: {rank_1v1}, TG: {rank_tg}"
     else:
         for i in range(len(rankings_1v1)):
             if rankings_1v1[i]['name'] == args[0]:
                 rank_1v1 = rankings_1v1[i]['rating']
             if rankings_tg[i]['name'] == args[0]:
                 rank_tg = rankings_tg[i]['rating']
-        response = f"DM {args[0]}: 1v1: {rank_1v1}, TG: {rank_tg}"
+        response = f"{args[0]} DM: 1v1: {rank_1v1}, TG: {rank_tg}"
     await msg.reply(response)
