@@ -186,7 +186,7 @@ async def cmd_does(msg: Message, *args):
             if bool:
                 response = args[0].title() + " have " + arg2.title()
             elif not bool:
-                response = args[0].title() + "do not have" + arg2.title()
+                response = args[0].title() + " do not have " + arg2.title()
             else:
                 response = "Error!"
 
