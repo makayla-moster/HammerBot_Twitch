@@ -14,7 +14,8 @@ It's a small project right now, but we are constantly working to make HammerBot 
 
 HammerBot is built with [PythonTwitchBotFramework](https://github.com/sharkbound/PythonTwitchBotFramework), an asynchronous Twitchbot framework.
 
-## Contributing to HammerBot
+<!-- ## Contributing to HammerBot -->
+![](.github/images/Contributing_Header-02.png)
 
 ### Issues & Bugs
 If a bug or any unintended behavior is discovered, please report it by creating an issue [here](https://github.com/makayla-moster/HammerBot_Twitch/issues).
