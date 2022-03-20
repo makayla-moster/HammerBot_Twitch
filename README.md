@@ -8,8 +8,8 @@ This HammerBot is a duplicate of the [Discord HammerBot](https://github.com/maka
 It's a small project right now, but we are constantly working to make HammerBot better.
 
 
-
-## Python Packages & Software
+![](.github/images/Packages_Header_2.png)
+<!-- ## Python Packages & Software -->
 ![Python Package](https://img.shields.io/badge/made%20with-python%203.9+-blue.svg?style=flat-square&logo=Python)
 
 HammerBot is built with [PythonTwitchBotFramework](https://github.com/sharkbound/PythonTwitchBotFramework), an asynchronous Twitchbot framework.
