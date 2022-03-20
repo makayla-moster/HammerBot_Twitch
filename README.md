@@ -17,7 +17,7 @@ HammerBot is built with [PythonTwitchBotFramework](https://github.com/sharkbound
 ## Contributing to HammerBot
 
 ### Issues & Bugs
-If a bug or any unintended behavior is discovered, please report it by creating an issue [here](https://github.com/makayla-moster/HammerBot/issues).
+If a bug or any unintended behavior is discovered, please report it by creating an issue [here](https://github.com/makayla-moster/HammerBot_Twitch/issues).
 
 ### HammerBot Development
 If you'd like to contribute code to HammerBot, please:
