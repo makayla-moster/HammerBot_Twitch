@@ -3,9 +3,16 @@
 ![GitHub Contributors](https://img.shields.io/github/contributors/makayla-moster/HammerBot_Twitch.svg?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/makayla-moster/HammerBot_Twitch?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/makayla-moster/HammerBot_Twitch?style=flat-square) ![License](https://img.shields.io/github/license/makayla-moster/HammerBot_Twitch.svg?style=flat-square) 
 
 
-This HammerBot is a duplicate of the [Discord HammerBot](https://github.com/makayla-moster/HammerBot) but for Twitch Age of Empires 2 streamers!
+HammerBot is a Twitch bot built for an Age of Empire II streamer's Twitch stream. HammerBot features Age of Empires II specific commands, such as `!whichciv <techName>` which returns a list of civs that get that specific technology in-game.  
 
-It's a small project right now, but we are constantly working to make HammerBot better.
+This HammerBot is a duplicate of the [Discord HammerBot](https://github.com/makayla-moster/HammerBot) but for Twitch Age of Empires 2 streamers!
+  
+Specific features include:
+- Team civilization randomizer for 2v2s, 3v3s, and 4v4s that takes into account pocket or flank positions
+- Finding out if a civilization has a specific technology or unit
+- Returning in-game [taunts](https://ageofempires.fandom.com/wiki/Taunts)
+- Player rank and match commands with info pulled from the [aoe2.net](https://aoe2.net/#api) API
+- And more!
 
 
 ![](.github/images/Packages_Header_2.png)
@@ -13,6 +20,19 @@ It's a small project right now, but we are constantly working to make HammerBot 
 ![Python Package](https://img.shields.io/badge/made%20with-python%203.9+-blue.svg?style=flat-square&logo=Python)
 
 HammerBot is built with [PythonTwitchBotFramework](https://github.com/sharkbound/PythonTwitchBotFramework), an asynchronous Twitchbot framework.
+
+Other packages/libraries used inclue:
+- asyncio
+- aiohttp
+
+HammerBot currently has a very simple setup, where all commands are split into their own libraries. Additionally, HammerBot also has an SQLite database.
+
+We currently have commands for:  
+- Age of Empires 2 player info
+- Age of Empires 2 taunts
+- Error handling
+- Bot services (help and info commands)
+- PythonTwitchBotFramework built-in commands
 
 <!-- ## Contributing to HammerBot -->
 ![](.github/images/Contributing_Header-02.png)
