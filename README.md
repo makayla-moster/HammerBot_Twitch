@@ -1,6 +1,9 @@
 ![](.github/images/HammerBot_Twitch_Header_noborder.png)
 
+<div align="center">  
+  
 ![GitHub Contributors](https://img.shields.io/github/contributors/makayla-moster/HammerBot_Twitch.svg?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/makayla-moster/HammerBot_Twitch?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/makayla-moster/HammerBot_Twitch?style=flat-square) ![License](https://img.shields.io/github/license/makayla-moster/HammerBot_Twitch.svg?style=flat-square) 
+</div> 
 
 
 HammerBot is a Twitch bot built for an Age of Empire II streamer's Twitch stream. HammerBot features Age of Empires II specific commands, such as `!whichciv <techName>` which returns a list of civs that get that specific technology in-game.  
