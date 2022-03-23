@@ -3,3 +3,5 @@
 *.sqlite
 __pycache__/
 *.toml
+venv/
+.venv
